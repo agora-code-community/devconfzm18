@@ -1,0 +1,9 @@
+[26-Mar-2018 14:41:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /home/agoracode/devcon.agoracode.community/sendemail.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/agoracode/devcon.agoracode.community/sendemail.php on line 73
+[26-Mar-2018 14:42:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function alert() in /home/agoracode/devcon.agoracode.community/sendemail.php:73
+Stack trace:
+#0 {main}
+  thrown in /home/agoracode/devcon.agoracode.community/sendemail.php on line 73
+[26-Mar-2018 14:42:21 America/New_York] PHP Notice:  Undefined index: email in /home/agoracode/devcon.agoracode.community/sendemail.php on line 13

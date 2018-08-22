@@ -1,0 +1,26 @@
+<html lang="en">
+
+	<head>
+		<title>DevCon Countdown</title>
+        <link rel="icon" href="static/img/favicon.png">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+				<meta name="viewport" content="width=device-width">
+        <script src="countdown/countdown.js"></script>
+		<link rel="stylesheet" href="static/css/style.css">
+	</head>
+
+	<body>
+		<div id="getting-started"></div>
+		<script type="text/javascript">
+		  $("#getting-started")
+		  .countdown("2018/06/23", function(event) {
+			$(this).text(
+			  event.strftime('%D days %H:%M:%S')
+			);
+		  });
+		</script>
+	</body>
+
+</html>
