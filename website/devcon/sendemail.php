@@ -5,7 +5,7 @@
     header( 'Content-type: application/json' );
 
 
-    $to         = 'mukuma.m@agoracode.community'; //put your email here
+    $to         = ''; //put your email here
 
     $email_template = 'simple.html';
 
